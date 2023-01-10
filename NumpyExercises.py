@@ -1,34 +1,33 @@
 import numpy as np
 
-# #### Create an array of 10 zeros 
+#Create an array of 10 zeros 
 np.zeros(10)
 
-# #### Create an array of 10 ones
+#Create an array of 10 ones
 np.ones(10)
 
-# #### Create an array of 10 fives
+#Create an array of 10 fives
 np.ones(10) * 5
 
-# #### Create an array of the integers from 10 to 50
+#Create an array of the integers from 10 to 50
 np.arange(10,51)
 
-# #### Create an array of all the even integers from 10 to 50
+#Create an array of all the even integers from 10 to 50
 np.arange(10,51,2)
 
-# #### Create a 3x3 matrix with values ranging from 0 to 8
+#Create a 3x3 matrix with values ranging from 0 to 8
 np.arange(9).reshape(3,3)
 
-# #### Create a 3x3 identity matrix
+#Create a 3x3 identity matrix
 np.eye(3)
 
-# #### Use NumPy to generate a random number between 0 and 1
+#Use NumPy to generate a random number between 0 and 1
 np.random.rand(1)
 
-# #### Use NumPy to generate an array of 25 random numbers sampled from a standard normal distribution
+#Use NumPy to generate an array of 25 random numbers sampled from a standard normal distribution
 np.random.randn(25)
 
-
-# #### Create the following matrix:
+#Create the following matrix:
 # array([[ 0.01,  0.02,  0.03,  0.04,  0.05,  0.06,  0.07,  0.08,  0.09,  0.1 ],
 #        [ 0.11,  0.12,  0.13,  0.14,  0.15,  0.16,  0.17,  0.18,  0.19,  0.2 ],
 #        [ 0.21,  0.22,  0.23,  0.24,  0.25,  0.26,  0.27,  0.28,  0.29,  0.3 ],
